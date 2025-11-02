@@ -1,0 +1,96 @@
+body{
+    background: black;
+    color: burlywood;
+    text-align: right;
+    background-image: url(cafe4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background:#b87d4c63;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size:x-large;
+}
+
+h1{
+    margin: 0;
+    font-size: 2.5rem;
+    color: #F6F1E9 ;
+}
+
+nav{
+    max-width: 800px;
+    font-size: 16px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0%;
+}
+nav a{
+    text-decoration: none;
+    color: #FFCF71;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a :hover{
+    color: #F5AD18;
+    border-bottom: 2px solid #F5AD18;
+}
+
+#home{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+h2{
+    color:#E2A16F ;
+}
+
+a{
+    color: #FFCF71;
+}
+
+a:hover{
+    color: #F5AD18;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+table, tr, td, caption{
+    border: 1px solid white;
+    padding: 0.5pc;
+    color: burlywood;
+    background-color: rgba(1, 1, 1, 0.3);
+    text-align: center;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: 0;
+    color: burlywood;
+}
+
+caption:hover{
+    background-color: rgba(1, 1, 1, 1);
+}
+
+td:hover{
+    background-color: rgba(1, 1, 1, 1);
+}
+
+footer{
+    background-color:rgba(1, 1, 1, 0.4) ;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+}
